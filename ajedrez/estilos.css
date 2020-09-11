@@ -1,0 +1,93 @@
+body{
+    background-image: url("img/img1.jpg");
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal{
+    width: 150vh;
+    height: 150vh;
+    background-image: url("img/img1.jpg");
+    justify-content: center;
+}
+
+#tablero{
+    width: 950px auto;
+    height: 950px auto;
+    justify-content: center;
+    align-items: center;
+    border: 50px;
+}
+
+#tab{
+    margin: 12vh;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 750px;
+    background: white;
+}
+
+.casilla{
+    width: 75px;
+    height: 75px;
+    border: 10px;
+    float: left;
+    text-align: center;
+    font-size: 3.5em;
+    overflow: hidden;
+    border-radius: 0.1rem;
+}
+
+.Oscuro{
+    background-color: darkred;
+    cursor: -ms-grab; 
+    cursor: -moz-grab; 
+    cursor: -webkit-grab; 
+    cursor: grab;
+    }
+
+    .Oscuro:hover{
+        background-color:cornflowerblue;
+    }
+    
+.Claro{
+    background-color: gray;
+    cursor: -ms-grab; 
+    cursor: -moz-grab; 
+    cursor: -webkit-grab; 
+    cursor: grab;
+    }
+
+    .Claro:hover{
+        background-color: cornflowerblue;
+    }
+
+.titulo{
+        display: flex;
+        padding: 10px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: x-large;
+}
+
+
+#footer{
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-small;
+}
+
+.puntero {
+    cursor: -ms-grabbing; 
+    cursor: -moz-grabbing; 
+    cursor: -webkit-grabbing; 
+    cursor: grabbing; 
+    }
